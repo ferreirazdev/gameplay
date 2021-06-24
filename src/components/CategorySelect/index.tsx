@@ -17,7 +17,7 @@ export function CategorySelect({ categorySelected , setCategory }: Props) {
     <ScrollView 
       horizontal
       style={styles.container}
-      showsVerticalScrollIndicator={false}
+      showsHorizontalScrollIndicator={false}
       contentContainerStyle={{paddingRight: 40}}
     >
       {
